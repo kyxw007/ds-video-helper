@@ -3,3 +3,6 @@
 *.pxt
 *.uxp
 *.uxt
+.idea
+.idea/*
+**/node_modules/**

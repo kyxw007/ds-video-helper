@@ -1,0 +1,21 @@
+{
+  "name": "ds-video-hepler",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "DS video station meta data helper",
+  "optional_permissions": [
+    "tabs",
+    "http://192.168.31.245:5000/"
+  ],
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "http://127.0.0.1:3000/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "ds-video-hepler",
+    "default_popup": "popup.html"
+  }
+}
