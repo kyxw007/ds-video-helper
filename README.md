@@ -2,6 +2,7 @@
 群晖Video Station助手，自动获取豆瓣电影信息，并填写Video Station视频信息
 ## 代码路面
 [/] Chrome插件代码负责从页面中获取视频名称，并通过后台爬虫获取豆瓣上的视频信息，填写页面表单
+
 [/ds-helper-server] 豆瓣爬虫代码，其中两个接口
 - /videoinfo/list/[videName] 负责通过视频名称去豆瓣搜索电影列表
 - /videoinfo/subject/[subjecId] 负责查询一个视频项目的具体信息
